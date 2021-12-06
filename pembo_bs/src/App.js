@@ -3,7 +3,7 @@ import Hearder from "./components/header/Hearder";
 
 function App() {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <Hearder />
     </div>
   );
