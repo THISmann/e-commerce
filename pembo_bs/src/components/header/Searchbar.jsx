@@ -1,4 +1,5 @@
 import React from "react";
+import { MdTravelExplore } from "react-icons/md";
 
 export default function Searchbar() {
   return (
@@ -6,14 +7,13 @@ export default function Searchbar() {
       <img
         src="https://media.istockphoto.com/photos/smart-home-symbol-picture-id1314037715"
         className="max-h-14 rounded-2xl mt-2"
-      ></img>
+      alt="round"></img>
       <div className="flex mx-4 justify-items-center">
         <input
           type="search"
           placeholder="Recherche sur le site..."
           className="border-2 border-gray-300 bg-white h-10 pr-40 rounded-lg text-xl focus:outline-none my-4"
-        ></input>
-        <button className="bg-blue-400 rounded-lg my-4">Chercher</button>
+        ></input> <MdTravelExplore size="2.5em" />
       </div>
       <div className="flex mr-4 mt-6">
         <svg
